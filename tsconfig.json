@@ -1,0 +1,81 @@
+// http://json.schemastore.org/tsconfig
+// https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/tsconfig.json.md
+// https://github.com/Microsoft/TypeScript-Handbook/blob/master/pages/Compiler%20Options.md
+
+{
+    "compileOnSave": true, // for Visual Studio 2015, atom-typescript plugin.
+    "filesGlob": [
+        "typings/**/*.d.ts",
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "compilerOptions": {
+
+        /* General Compiler Options */
+        "target": "es6",
+        // "watch": false,
+        // "allowJs": true,
+        // "charset": "utf8",
+        // "newLine": "LF"
+
+        /* Module, Triple-slash References, Lib */
+        // "module": "es6",
+        // "moduleResolution": "Classic",
+        // "isolatedModules": false,
+        // "allowSyntheticDefaultImports": false,
+        "forceConsistentCasingInFileNames": true,
+        // "noResolve": false,
+        // "skipDefaultLibCheck": false,
+        // "noLib": fasle,
+
+        /* Consule Output */
+        "locale": "zh-CN",
+        "pretty": true,
+        // "listFiles": false
+        // "diagnostics": false,
+
+        /* Check */
+        // "allowUnreachableCode": false,
+        // "allowUnusedLabels": false,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        // *"suppressImplicitAnyIndexErrors": true,
+        // *"suppressExcessPropertyErrors": true,
+
+        /* Output Files */
+        "rootDir": "./src",
+        "outDir": "./build",
+
+        // "outFile": false,
+
+        // "sourceMap": false,
+        // "declaration": false,
+
+        "inlineSourceMap": true,
+        // "inlineSources": false,
+
+        /* Debug Root Path */
+        // "mapRoot": null,
+        // "sourceRoot": null,
+
+        /* Emit */
+        // "emitBOM": false,
+        "preserveConstEnums": true,
+
+        // "noEmit": false,
+        "noEmitOnError": true,
+        // "noEmitHelpers": false,
+        // "noImplicitUseStrict": false,
+        // "removeComments": false,
+        "stripInternal": true,
+
+        /* JSX & React */
+        "jsx": "react",
+        // "reactNamespace": "React",
+
+        /* Declorator */
+        "experimentalDecorators": true
+        // "emitDecoratorMetadata": false,
+    }
+}
