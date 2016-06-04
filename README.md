@@ -277,3 +277,229 @@ const styles = StyleSheet.create({
     }
 }
 ```
+TSLint
+```json
+{
+    "rules": {
+        // "member-access": false,
+        "member-ordering": [
+            true,
+            {
+                "order": "fields-first"
+            }
+        ],
+        // "no-any": false,
+        "no-inferrable-types": [
+            true,
+            "ignore-params"
+        ],
+        "no-internal-module": true,
+        "no-namespace": [
+            true,
+            "allow-declarations"
+        ],
+        "no-reference": true,
+        "no-var-requires ": true,
+        // "typedef": false
+        "typedef-whitespace": [
+            true,
+            {
+                "call-signature": "nospace",
+                "index-signature": "nospace",
+                "parameter": "nospace",
+                "property-declaration": "nospace",
+                "variable-declaration": "nospace"
+            },
+            {
+                "call-signature": "onespace",
+                "index-signature": "onespace",
+                "parameter": "onespace",
+                "property-declaration": "onespace",
+                "variable-declaration": "onespace"
+            }
+        ],
+        // "ban": false,
+        "curly": true,
+        // "forin": false,
+        "label-position": true,
+        "label-undefined": true,
+        "no-arg": true,
+        "no-bitwise": true,
+        "no-conditional-assignment": true,
+        // "no-console": false,
+        "no-construct": true,
+        // "no-debugger": false,
+        "no-duplicate-key": true,
+        "no-duplicate-variable": true,
+        "no-empty": true,
+        "no-eval": true,
+        "no-invalid-this": [
+            true,
+            "check-function-in-method"
+        ],
+        "no-null-keyword": true,
+        "no-shadowed-variable": true,
+        "no-string-literal": true,
+        "no-switch-case-fall-through": true,
+        "no-unreachable": true,
+        "no-unused-expression": true,
+        "no-unused-variable": [
+            true,
+            "check-parameters",
+            "react",
+            {
+                "ignore-pattern": "^_"
+            }
+        ],
+        // "no-use-before-declare": false,
+        "no-var-keyword": true,
+        "radix": true,
+        "switch-default": true,
+        "triple-equals": true,
+        "use-isnan": true,
+        "use-strict": [
+            true,
+            "check-module",
+            "check-function"
+        ],
+        "eofline": true,
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "max-line-length": [
+            true,
+            120
+        ],
+        // "no-default-export": false,
+        "no-require-imports": true,
+        "no-trailing-whitespace": true,
+        // "object-literal-sort-keys": false,
+        "trailing-comma": [
+            true,
+            {
+                "singleline": "never",
+                "multiline": "never"
+            }
+        ],
+        "align": [
+            true,
+            "parameters",
+            "arguments",
+            "statements"
+        ],
+        "class-name": true,
+        "comment-format": [
+            true,
+            "check-space"
+        ],
+        "interface-name": [
+            true,
+            "always-prefix"
+        ],
+        "jsdoc-format": true,
+        "new-parens": true,
+        "no-angle-bracket-type-assertion": true,
+        "no-consecutive-blank-lines": true,
+        // "no-constructor-vars": false,
+        "one-line": [
+            true,
+            "check-else",
+            "check-catch",
+            "check-finally",
+            "check-open-brace",
+            "check-whitespace"
+        ],
+        "one-variable-per-declaration": [
+            true,
+            "ignore-for-loop"
+        ],
+        "quotemark": [
+            true,
+            "double",
+            "jsx-double"
+        ],
+        "semicolon": [
+            true,
+            "never"
+        ],
+        "variable-name": [
+            true,
+            "check-format",
+            "allow-leading-underscore",
+            "allow-trailing-underscore",
+            "allow-pascal-case",
+            "ban-keywords"
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-type",
+            "check-typecast"
+        ]
+    }
+}
+```
+ESLint
+edit `eslintrc.json`
+```json
+{
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "globalReturn": false,
+            "impliedStrict": true,
+            "jsx": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "env": {
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": [
+            "warn",
+            4
+        ],
+        "linebreak-style": [
+            "warn",
+            "unix"
+        ],
+        "quotes": [
+            "warn",
+            "double"
+        ],
+        "semi": [
+            "warn",
+            "never"
+        ],
+        "no-unused-vars": [
+            "warn",
+            {
+                "vars": "all",
+                "args": "all",
+                "caughtErrors": "all",
+                "varsIgnorePattern": "^_",
+                "argsIgnorePattern": "^_",
+                "caughtErrorsIgnorePattern": "^_"
+            }
+        ]
+    }
+}
+```
+`.eslintignore`
+```
+# /node_modules/* and /bower_components/* ignored by default
+
+# Ignore built files except build/index.js
+build/*
+!build/index.js
+```
+
+

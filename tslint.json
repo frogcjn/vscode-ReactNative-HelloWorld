@@ -8,9 +8,15 @@
             }
         ],
         // "no-any": false,
-        "no-inferrable-types": [true, "ignore-params"],
+        "no-inferrable-types": [
+            true,
+            "ignore-params"
+        ],
         "no-internal-module": true,
-        "no-namespace": [true, "allow-declarations"],
+        "no-namespace": [
+            true,
+            "allow-declarations"
+        ],
         "no-reference": true,
         "no-var-requires ": true,
         // "typedef": false
@@ -46,21 +52,35 @@
         "no-duplicate-variable": true,
         "no-empty": true,
         "no-eval": true,
-        "no-invalid-this": [true, "check-function-in-method"],
+        "no-invalid-this": [
+            true,
+            "check-function-in-method"
+        ],
         "no-null-keyword": true,
         "no-shadowed-variable": true,
         "no-string-literal": true,
         "no-switch-case-fall-through": true,
         "no-unreachable": true,
         "no-unused-expression": true,
-        "no-unused-variable": [true, "check-parameters", "react", {"ignore-pattern": "^_"}],
+        "no-unused-variable": [
+            true,
+            "check-parameters",
+            "react",
+            {
+                "ignore-pattern": "^_"
+            }
+        ],
         // "no-use-before-declare": false,
         "no-var-keyword": true,
         "radix": true,
         "switch-default": true,
         "triple-equals": true,
         "use-isnan": true,
-        "use-strict": [true, "check-module", "check-function"],
+        "use-strict": [
+            true,
+            "check-module",
+            "check-function"
+        ],
         "eofline": true,
         "indent": [
             true,
@@ -78,16 +98,24 @@
             true,
             {
                 "singleline": "never",
-                "multiline": "always"
+                "multiline": "never"
             }
         ],
-        "align": [true, "parameters", "arguments", "statements"],
+        "align": [
+            true,
+            "parameters",
+            "arguments",
+            "statements"
+        ],
         "class-name": true,
         "comment-format": [
             true,
             "check-space"
         ],
-        "interface-name": [true, "always-prefix"],
+        "interface-name": [
+            true,
+            "always-prefix"
+        ],
         "jsdoc-format": true,
         "new-parens": true,
         "no-angle-bracket-type-assertion": true,
@@ -101,7 +129,10 @@
             "check-open-brace",
             "check-whitespace"
         ],
-        "one-variable-per-declaration": [true, "ignore-for-loop"],
+        "one-variable-per-declaration": [
+            true,
+            "ignore-for-loop"
+        ],
         "quotemark": [
             true,
             "double",
@@ -111,7 +142,14 @@
             true,
             "never"
         ],
-        "variable-name": [true, "check-format", "allow-leading-underscore", "allow-trailing-underscore", "ban-keywords"],
+        "variable-name": [
+            true,
+            "check-format",
+            "allow-leading-underscore",
+            "allow-trailing-underscore",
+            "allow-pascal-case",
+            "ban-keywords"
+        ],
         "whitespace": [
             true,
             "check-branch",
