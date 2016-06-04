@@ -13,7 +13,7 @@ import {
 } from "react-native"
 
 export default class AwesomeProject extends Component<any, any> {
-    public render() {
+    render() {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>

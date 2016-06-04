@@ -4,7 +4,7 @@
  * @flow
  */
 
-import helloworld from "./build/index.ios";
-import { AppRegistry } from "react-native";
+import helloworld from "./build/index.ios"
+import { AppRegistry } from "react-native"
 
-AppRegistry.registerComponent("helloworld", () => helloworld);
+AppRegistry.registerComponent("helloworld", () => helloworld)

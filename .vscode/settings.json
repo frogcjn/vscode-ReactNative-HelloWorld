@@ -4,8 +4,8 @@
     // 配置 glob 模式以排除文件和文件夹。
     "files.exclude": {
         "node_modules": true,
-        // "build": true,
-        "typings": true
+        "build": true
+        // "typings": true
     },
 
     "emeraldwalk.runonsave": {
