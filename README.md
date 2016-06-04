@@ -9,6 +9,15 @@
   4. tslint
   5. eslint
 
+## [VSCode extension]
+  1. ESLint
+  2. TSLint
+  3. React Native Tools
+  4. Document This
+  5. Flow Language Support
+  6. final-new line
+  7. Run on save
+
 ## React Native
 
 run shell:
@@ -494,7 +503,7 @@ edit `eslintrc.json`
 }
 ```
 `.eslintignore`
-```
+```eslintignore
 # /node_modules/* and /bower_components/* ignored by default
 
 # Ignore built files except build/index.js
