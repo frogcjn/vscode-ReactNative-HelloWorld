@@ -3,7 +3,7 @@
 
     // 配置 glob 模式以排除文件和文件夹。
     "files.exclude": {
-         "build": true,
+         // "build": true,
          "typings": true,
          "node_modules": true
     },
