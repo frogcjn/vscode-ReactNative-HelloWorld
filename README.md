@@ -2,6 +2,7 @@
 # brew install
   1. watchman
   2. git
+  3. ideviceinstaller
 
 # npm i -g
   1. typings

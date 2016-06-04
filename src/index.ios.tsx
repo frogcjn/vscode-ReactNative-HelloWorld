@@ -9,7 +9,7 @@ const {Component} = React
 import {
     StyleSheet,
     Text,
-    View
+    View,
 } from "react-native"
 
 export default class AwesomeProject extends Component<any, any> {

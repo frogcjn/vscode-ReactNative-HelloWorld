@@ -101,7 +101,7 @@
             true,
             {
                 "singleline": "never",
-                "multiline": "never"
+                "multiline": "true"
             }
         ],
         "align": [
