@@ -1,3 +1,6 @@
+// http://eslint.org
+// https://github.com/SchemaStore/schemastore/blob/master/src/schemas/json/eslintrc.json
+
 {
     "parserOptions": {
         "ecmaVersion": 7,

@@ -1,3 +1,6 @@
+// https://palantir.github.io/tslint/
+// https://github.com/SchemaStore/schemastore/blob/master/src/schemas/json/tslint.json
+
 {
     "rules": {
         // "member-access": false,
