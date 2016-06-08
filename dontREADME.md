@@ -107,10 +107,8 @@ edit `src/index.ios.tsx`, `src/index.android.js`
 # Workspace settings
 edit `.vscode/settings.json`
 ```json
-// 将设置放入此文件中以覆盖默认值和用户设置。
 {
 
-    // 配置 glob 模式以排除文件和文件夹。
     "files.exclude": {
         "node_modules": true,
         "build": true,
