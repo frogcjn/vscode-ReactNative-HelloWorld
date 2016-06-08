@@ -14,6 +14,16 @@ import {
 
 export default class AwesomeProject extends Component<any, any> {
     render() {
+        console.log("x")
+        console.log("y")
+        console.log("z")
+        console.log("z")
+        console.log("z")
+        console.log("z")
+        console.log("z")
+        console.log("z")
+        console.log("z")
+        console.log("z")
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>
